@@ -9,7 +9,7 @@ public class Ex1Main {
 		
 		iu.setName("iu");
 		iu.setAge(30);
-		//
+		//////
 		String name = iu.getName();
 		
 		System.out.println(iu.getName());
