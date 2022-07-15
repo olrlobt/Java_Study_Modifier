@@ -1,22 +1,22 @@
-package com.iu.terran;
+package com.iu.zerg;
 
 import com.iu.unit.Unit;
 
-public class Marine extends Unit{
-
+public class Hydra extends Unit{
+	
 	
 
 	
 	private String weapon;
 	
 	public void move() {
-		System.out.println("구보로 움직이기 ");
+		System.out.println(" 기어가기 ");
 	}
 	
 	
 	
 	public void shoot() {
-		System.out.println("우당탕탕탕" );
+		System.out.println("ㅜ테 퉤퉽 퉤투 퉤 " );
 	}
 	
 	public String getWeapon() {
@@ -25,6 +25,8 @@ public class Marine extends Unit{
 	public void setWeapon(String weapon) {
 		this.weapon = weapon;
 	}
+	
+	
 	
 	
 }
