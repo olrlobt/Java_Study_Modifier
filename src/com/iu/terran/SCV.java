@@ -6,11 +6,12 @@ public class SCV extends Unit{
 
 	
 
-	
-	
 	public void move() {
-		System.out.println("이동");
+		System.out.println("이동  " );
+		
 	}
+	
+
 	public void attack() {
 		System.out.println("공격  치직" );
 	}

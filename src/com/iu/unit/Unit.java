@@ -1,9 +1,39 @@
 package com.iu.unit;
 
-public class Unit {
+public abstract class Unit {
 
 	private int hp;
 	private String color;
+	private String Name;
+	private int wings;
+	
+	
+	// 
+	
+	public Unit (int hp) {
+		System.out.println("Unit 생성자 " );
+		
+	}
+	
+	public abstract void move();
+	public  void info() {
+		System.out.println("info " );
+		
+	};
+	
+	
+	public void attack() {
+		System.out.println("공격  치직" );
+	}
+	public void work() {
+		System.out.println("미네랄 치직" );
+	}
+	
+	
+	
+	
+	
+	
 	public int getHp() {
 		return hp;
 	}

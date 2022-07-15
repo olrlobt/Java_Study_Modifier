@@ -9,8 +9,23 @@ public class Marine extends Unit{
 	
 	private String weapon;
 	
+	
+	public Marine() {
+		super(0);
+		System.out.println("마린 생성자 " );
+	}
+	
+	
+	public void info() {
+		super.info();
+		System.out.println("마린 info " );
+		
+	}
+	
+	
 	public void move() {
-		System.out.println("구보로 움직이기 ");
+		System.out.println("터벅터벅 " );
+		
 	}
 	
 	

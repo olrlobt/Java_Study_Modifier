@@ -14,6 +14,8 @@ public class Main {
 		Hydra hydra = new Hydra();
 		
 		
+		m1.info();
+		m1.move();
 		
 
 	}
